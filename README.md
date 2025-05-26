@@ -2,6 +2,8 @@
 
 A Python-based command-line application in development, designed to help investors understand and manage the psychological aspects of their trading decisions.
 
+**Project Started:** May 25, 2025
+
 ## About The Project
 
 This project aims to provide investors with a tool to log and reflect on their emotional state, market perceptions, and the reasoning behind their investment actions. By fostering self-awareness, the "Behavioral Finance Habit Tracker" is intended to help users identify potential cognitive biases that can impact trading performance. The overall goal is to encourage more disciplined, plan-driven investment strategies.
