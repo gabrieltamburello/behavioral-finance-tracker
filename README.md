@@ -1,7 +1,5 @@
 # Behavioral Finance Habit Tracker for Investors
 
-## About The Project
-
 This project is a Python-based command-line application designed to help investors track their emotional states and decision-making patterns related to their investments. By logging daily market perceptions, personal emotions, and the reasoning behind trades, users can gain insights into their behavioral biases and work towards more disciplined investing.
 
 ## Purpose / Motivation
