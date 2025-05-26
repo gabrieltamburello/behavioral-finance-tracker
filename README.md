@@ -1,25 +1,31 @@
 # Behavioral Finance Habit Tracker for Investors
 
-This project is a Python-based command-line application designed to help investors track their emotional states and decision-making patterns related to their investments. By logging daily market perceptions, personal emotions, and the reasoning behind trades, users can gain insights into their behavioral biases and work towards more disciplined investing.
+A Python-based command-line application in development, designed to help investors understand and manage the psychological aspects of their trading decisions.
 
-## Purpose / Motivation
+## About The Project
 
-The motivation behind this project is to explore the intersection of behavioral finance and practical software development. It serves as a learning exercise in Python, SQLite database management, and building a useful command-line tool. I am particularly interested in how self-reflection can aid in improving investment discipline.
+This project aims to provide investors with a tool to log and reflect on their emotional state, market perceptions, and the reasoning behind their investment actions. By fostering self-awareness, the "Behavioral Finance Habit Tracker" is intended to help users identify potential cognitive biases that can impact trading performance. The overall goal is to encourage more disciplined, plan-driven investment strategies.
 
-## Current Status & Next Steps
+## Current Progress (as of May 25, 2025)
 
-**Current Progress (as of May 25, 2025):**
-* Database schema for `daily_entries` table has been defined and created using SQLite (`database_setup.py`).
-* Started development of the main application (`main.py`) to add daily entries.
-* Implemented user input and validation (including an "exit" option) for the "overall market mood" field.
+* **Database Foundation:** Successfully established an SQLite database (`tracker.db`) with a defined schema for `daily_entries`. This was achieved using a Python script (`database_setup.py`) to handle table creation.
+* **Core Application Development Started:** Began development of the main application logic in `main.py`.
+* **Initial User Input Feature:** Implemented functionality for users to input the date and the "overall market mood" for a daily entry. This includes input validation for the market mood, allowing specific values ("Bullish", "Bearish", "Neutral") and providing an "exit" option for the user.
 
-**Next Steps:**
-* Complete user input for "personal emotional state" and "notes" for a daily entry.
-* Implement the SQL `INSERT` functionality to save new daily entries to the database.
-* Develop functionality to view past entries.
+## Motivation & Learning Goals
+
+This project stems from a keen interest in:
+* Exploring the powerful intersection of **behavioral finance** principles and **practical software development**.
+* Deepening my skills in **Python** and **SQLite database management** through the creation of a tangible, useful command-line application.
+* Investigating how guided **self-reflection**, facilitated by technology, can enhance **investment discipline** and lead to more rational financial decisions.
 
 ## Technologies Used
 
-* Python 3
-* SQLite
-* Git & GitHub (with Codespaces)
+* **Programming Language:** Python 3
+* **Database:** SQLite 3
+* **Version Control:** Git
+* **Development Environment:** GitHub Codespaces (VS Code interface)
+
+## License
+
+Distributed under the MIT License. See the `LICENSE` file for more information.
